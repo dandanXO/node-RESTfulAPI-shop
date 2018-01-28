@@ -34,3 +34,5 @@ mongoose.connect('mongodb://root:'+process.env.MONGO_ATLAS_PW+
 - /orders:POST: 訂單新增
 - /orders/{id}:GET: 單一訂單資訊
 - /orders/{id}:DELETE: 單一訂單取消
+
+# 詳細解說可以參閱[這裡](https://blog.dandan.tw/2018/01/23/RESTfulAPIbynodejsexpress%E5%AF%A6%E6%88%B0/)
