@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "MONGO_ATLAS_PW=a850130 && JWT_key=kdigdknlvpe && node server",
+    "start": "node server",
     "nodemonstart": "nodemon server.js"
   },
   "keywords": [
